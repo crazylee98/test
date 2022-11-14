@@ -76,14 +76,15 @@ Git跟踪并管理的是修改，而非文件。
     - 点击添加new SSH key
     - 将id_rsa.pub放入到key的输入框中，添加即可
 4. 第4步：创建仓库
-5. 第5步：上传到远程仓库
+5. 第5步：生成token  Setting —— Developer setting —— 先选择个人访问令牌，再点击创建新令牌 —— 设置你的令牌 token的使用期限以及定义个人令牌的访问权限。—— token要复制下来保存好 —— 在密码位置直接填上上面你所生成的 token 密钥。
+6. 第6步：上传到远程仓库
     - 将需要上传到远程仓库的项目提交到本地仓库
     - 关联远程仓库执行命令：git remote add origin https://github.com/Geekiwen/web2009.git
     - 上传到远程仓库：git push -u origin master(main换成主分支master)
     - 输入github的用户和密码
-6. 第6步：关于markdown文件
+7. 第7步：关于markdown文件
     markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。
-7. 第7步：修改文件，在次提交
+8. 第8步：修改文件，在次提交
     - git push
 
 ### gitee
