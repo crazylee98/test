@@ -79,7 +79,7 @@ Git跟踪并管理的是修改，而非文件。
 5. 第5步：生成token  Setting —— Developer setting —— 先选择个人访问令牌，再点击创建新令牌 —— 设置你的令牌 token的使用期限以及定义个人令牌的访问权限。—— token要复制下来保存好 —— 在密码位置直接填上上面你所生成的 token 密钥。
 6. 第6步：上传到远程仓库
     - 将需要上传到远程仓库的项目提交到本地仓库
-    - 关联远程仓库执行命令：git remote add origin https://github.com/Geekiwen/web2009.git
+    - 关联远程仓库执行命令：git remote add origin https://github.com/xxxx/xxx.git
     - 上传到远程仓库：git push -u origin master(main换成主分支master)
     - 输入github的用户和密码
 7. 第7步：关于markdown文件
